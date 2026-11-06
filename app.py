@@ -27,7 +27,7 @@ from functools import wraps
 
 BASE_DIR = Path(__file__).resolve().parent
 
-load_dotenv(BASE_DIR / ".env", override=True)
+load_dotenv(BASE_DIR / ".env", override=False)
 
 app = Flask(__name__)
 
